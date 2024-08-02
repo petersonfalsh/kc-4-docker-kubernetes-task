@@ -1,7 +1,8 @@
 
 
 
-```markdown
+```
+```
 # Simple Web Application Deployment with Docker and Kubernetes
 
 This project demonstrates how to create a simple web application using Python, containerize it with Docker, and deploy it to a Kubernetes cluster.
