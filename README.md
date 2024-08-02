@@ -330,11 +330,11 @@ The major challenge I faced is when I applied my configuration file, I got the e
 
 My working screenshots are here below:
 
-![Docker build start](/screenshots/docker%20build%20-%201.PNG)
+![Docker build start](screenshots/docker%20build%20-%201.PNG)
 
-![Docker build completed](/screenshots/docker%20build%20-%203.PNG)
+![Docker build completed](screenshots/docker%20build%20-%203.PNG)
 
-![Docker run screenshot to containerize the application](/screenshots/Docker%20run%20image%20as%20container%20-%205.PNG)
+![Docker run screenshot to containerize the application](screenshots/Docker%20run%20image%20as%20container%20-%205.PNG)
 
 ![Docker login to enable me push to dockerhub](screenshots/docker%20login%20-%206.PNG)
 
@@ -384,4 +384,3 @@ This project demonstrates the process of containerizing a simple web application
 ## Author
 
 Petersonfalsh - Current KodeCamp Bootcamp student as at when this project is pushed - August 2024
-```
