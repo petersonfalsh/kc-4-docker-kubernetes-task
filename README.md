@@ -334,11 +334,17 @@ The major challenge I faced is when I applied my configuration file, I got the e
 My working screenshots are here below:
 
 ![Docker build start](screenshots/docker%20build%20-%201.PNG)
+
 ![Docker build completed](screenshots/docker%20build%20-%203.PNG)
+
 ![Docker run screenshot to containerize the application](screenshots/Docker%20run%20image%20as%20container%20-%205.PNG)
+
 ![Docker login to enable me push to dockerhub](screenshots/docker%20login%20-%206.PNG)
+
 ![Docker push - to push to dockerhub](screenshots/Docker%20hub%20push.PNG)
+
 ![Docker image pushed to my dockerhub account](screenshots/docker%20-%20image%20now%20pushed%20to%20dockerhub%20-%207.PNG)
+
 ![Check the docker container running and working app through the browser](screenshots/docker%20-%20container%20running%20at%20port%204000%20-%20web%20browser.PNG)
 
 ![Kubernetes manifest file applied - deployment file applied](screenshots/kubernetes%20deployment%20-%20watching.PNG)
@@ -357,5 +363,29 @@ This project demonstrates the process of containerizing a simple web application
 
 Petersonfalsh - Current KodeCamp Bootcamp student as at when this project is pushed - August 2024
 ```
+```
+# Simple Web Application Deployment with Docker and Kubernetes
 
+## Screenshots
+
+![Docker container running at port 4000 - web browser view](screenshots/docker%20-%20container%20running%20at%20port%204000%20-%20web%20browser.PNG)
+
+![Image now pushed to Docker Hub](screenshots/docker%20-%20image%20now%20pushed%20to%20dockerhub%20-%207.PNG)
+
+![Check the docker container running and working app through the browser](screenshots/docker%20-%20container%20running%20at%20port%204000%20-%20web%20browser.PNG)
+
+![Kubernetes manifest file applied - deployment file applied](screenshots/kubernetes%20deployment%20-%20watching.PNG)
+
+![Kubernetes pods - running pods from 2 replicas in my deployment file](screenshots/kubernetes%20deployment%20-%20container%20running.PNG)
+
+![Application deployed on Kubernetes cluster - view on web browser when port forwarded using the service.yaml file](screenshots/Kubernets%20deployment%20-%20deployment%20port%20forwarded%20and%20can%20be%20viewed%20in%20the%20browser.PNG)
+
+## Conclusion
+
+This project demonstrates the process of containerizing a simple web application using Docker and deploying it to a Kubernetes cluster. And optionally Using `ConfigMap` and `Secret` enhances configuration management and security, making the application more flexible and secure.
+
+## Author
+
+Petersonfalsh - Current KodeCamp Bootcamp student as at when this project is pushed - August 2024
+```
 ```
