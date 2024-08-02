@@ -1,32 +1,9 @@
 
-# apiVersion: apps/v1
-# kind: Deployment
-# metadata:
-#  name: simple-web-app
-# spec:
-#  replicas: 2
-#  selector:
-#    matchLabels:
-#      app: simple-web-app
-#  template:
-#    metadata:
-#      labels:
-#        app: simple-web-app
-#    spec:
-#      containers:
-#      - name: simple-web-app
-#        image: petersonfalsh/simple-web-app:latest
-#        ports:
-#        - containerPort: 80
-
-
-# Let's use the configmap in our deployment.yaml file
-
-apiVersion: apps/v1
-kind: Deployment
-metadata:
+ apiVersion: apps/v1
+ kind: Deployment
+ metadata:
   name: simple-web-app
-spec:
+ spec:
   replicas: 2
   selector:
     matchLabels:
@@ -37,13 +14,7 @@ spec:
         app: simple-web-app
     spec:
       containers:
-        - name: simple-web-app
-          image: petersonfalsh/simple-web-app:latest
-          ports:
-            - containerPort: 80
-          env:
-            - name: MESSAGE
-              valueFrom:
-                configMapKeyRef:
-                  name: app-config
-                  key: MESSAGE
+      - name: simple-web-app
+        image: petersonfalsh/simple-web-app:latest
+        ports:
+        - containerPort: 80
