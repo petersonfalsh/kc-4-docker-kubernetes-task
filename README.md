@@ -81,8 +81,8 @@ docker build -t simple-web-app .
 docker tag simple-web-app YOUR_DOCKERHUB_USERNAME/simple-web-app:latest
 ```
 
-- ![Docker build start](screenshots/docker%20build%20-%201.PNG)
-- ![Docker build completed](screenshots/docker%20build%20-%203.PNG)
+![Docker build start](screenshots/docker%20build%20-%201.PNG)
+![Docker build completed](screenshots/docker%20build%20-%203.PNG)
 
 
 
@@ -92,16 +92,16 @@ docker tag simple-web-app YOUR_DOCKERHUB_USERNAME/simple-web-app:latest
 docker login
 docker push YOUR_DOCKERHUB_USERNAME/simple-web-app:latest
 ```
-- ![Docker login to enable me push to dockerhub](screenshots/docker%20login%20-%206.PNG)
-- ![Docker push - to push to dockerhub](screenshots/Docker%20hub%20push.PNG)
-- ![Dcoker image pushed to my dockerhub account](screenshots/docker%20-%20image%20now%20pushed%20to%20dockerhub%20-%207.PNG)
+![Docker login to enable me push to dockerhub](screenshots/docker%20login%20-%206.PNG)
+![Docker push - to push to dockerhub](screenshots/Docker%20hub%20push.PNG)
+![Dcoker image pushed to my dockerhub account](screenshots/docker%20-%20image%20now%20pushed%20to%20dockerhub%20-%207.PNG)
 
 
 4. My docker image URL from Docker hub is: ![myDockerImageURL](https://hub.docker.com/layers/petersonfalsh/simple-web-app/latest/images/sha256-584572105282f54d511820708d3244d26a8708b6d0c5b561de20828353b280e0?context=repo)
 
 
 5. Running container can be viewed from my browser - 
-- ![Check the docker container running and working app through the browser](screenshots/docker%20-%20container%20running%20at%20port%204000%20-%20web%20browser.PNG)
+![Check the docker container running and working app through the browser](screenshots/docker%20-%20container%20running%20at%20port%204000%20-%20web%20browser.PNG)
 
 
 ## Kubernetes Deployment
@@ -154,9 +154,9 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 
-- ![Kubernetes manifest file applied - deployment file applied](screenshots/kubernetes%20deployment%20-%20watching.PNG)
+![Kubernetes manifest file applied - deployment file applied](screenshots/kubernetes%20deployment%20-%20watching.PNG)
 
-- ![Kubernetes pods - running pods from 2 replicas in my deployment file](screenshots/kubernetes%20deployment%20-%20container%20running.PNG)
+![Kubernetes pods - running pods from 2 replicas in my deployment file](screenshots/kubernetes%20deployment%20-%20container%20running.PNG)
 
 
 ## Testing the Deployment
@@ -170,7 +170,7 @@ kubectl port-forward service/simple-web-app-service 8080:80
 Access the application at `http://localhost:8080`.
 
 
-- ![Application deployed on Kubernetes cluster - view on web browser when port forwaded using the service.yaml file](screenshots/Kubernets%20deployment%20-%20deployment%20port%20forwarded%20and%20can%20be%20viewd%20in%20the%20browser.PNG)
+![Application deployed on Kubernetes cluster - view on web browser when port forwaded using the service.yaml file](screenshots/Kubernets%20deployment%20-%20deployment%20port%20forwarded%20and%20can%20be%20viewd%20in%20the%20browser.PNG)
 
 
 ## ConfigMap and Secret (Optional)
@@ -333,20 +333,20 @@ The major challenge I faced is when I applied my configuration file, I got the e
 
 My working screenshots are here below:
 
-- ![Docker build start](screenshots/docker%20build%20-%201.PNG)
-- ![Docker build completed](screenshots/docker%20build%20-%203.PNG)
-- ![Docker run screenshot to containerize the application](screenshots/Docker%20run%20image%20as%20container%20-%205.PNG)
-- ![Docker login to enable me push to dockerhub](screenshots/docker%20login%20-%206.PNG)
-- ![Docker push - to push to dockerhub](screenshots/Docker%20hub%20push.PNG)
-- ![Docker image pushed to my dockerhub account](screenshots/docker%20-%20image%20now%20pushed%20to%20dockerhub%20-%207.PNG)
-- ![Check the docker container running and working app through the browser](screenshots/docker%20-%20container%20running%20at%20port%204000%20-%20web%20browser.PNG)
+![Docker build start](screenshots/docker%20build%20-%201.PNG)
+![Docker build completed](screenshots/docker%20build%20-%203.PNG)
+![Docker run screenshot to containerize the application](screenshots/Docker%20run%20image%20as%20container%20-%205.PNG)
+![Docker login to enable me push to dockerhub](screenshots/docker%20login%20-%206.PNG)
+![Docker push - to push to dockerhub](screenshots/Docker%20hub%20push.PNG)
+![Docker image pushed to my dockerhub account](screenshots/docker%20-%20image%20now%20pushed%20to%20dockerhub%20-%207.PNG)
+![Check the docker container running and working app through the browser](screenshots/docker%20-%20container%20running%20at%20port%204000%20-%20web%20browser.PNG)
 
-- ![Kubernetes manifest file applied - deployment file applied](screenshots/kubernetes%20deployment%20-%20watching.PNG)
+![Kubernetes manifest file applied - deployment file applied](screenshots/kubernetes%20deployment%20-%20watching.PNG)
 
-- ![Kubernetes pods - running pods from 2 replicas in my deployment file](screenshots/kubernetes%20deployment%20-%20container%20running.PNG)
+![Kubernetes pods - running pods from 2 replicas in my deployment file](screenshots/kubernetes%20deployment%20-%20container%20running.PNG)
 
 
-- ![Application deployed on Kubernetes cluster - view on web browser when port forwaded using the service.yaml file](screenshots/Kubernets%20deployment%20-%20deployment%20port%20forwarded%20and%20can%20be%20viewd%20in%20the%20browser.PNG)
+![Application deployed on Kubernetes cluster - view on web browser when port forwaded using the service.yaml file](screenshots/Kubernets%20deployment%20-%20deployment%20port%20forwarded%20and%20can%20be%20viewd%20in%20the%20browser.PNG)
 
 
 ## Conclusion
