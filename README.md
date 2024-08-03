@@ -328,7 +328,7 @@ The major challenge I faced is when I applied my configuration file, I got the e
 
 ## Screenshots
 
-My working screenshots are here below:
+My task screenshots are here below:
 
 ![Docker build start](screenshots/docker%20build%20-%201.PNG)
 
